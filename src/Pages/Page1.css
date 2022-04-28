@@ -1,0 +1,32 @@
+.page{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(57, 64, 70);
+    width: 50%;
+    height:60%;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: -4px 17px 82px -20px rgba(0,0,0,0.89);
+    padding: 10px;
+    border-radius: 10px;
+/* -webkit-box-shadow: -4px 17px 102px 13px rgba(0,0,0,0.89);
+-moz-box-shadow: -4px 17px 102px 13px rgba(0,0,0,0.89); */
+}
+
+.result{
+    font-size: 2rem;
+    padding: 10px;
+    /* width: 100%; */
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* grid-row-end: 3; */
+  }
+.green{
+    background-color: #5a5;
+  }
+.red{
+    background-color: rgb(234, 37, 37);
+  }
+
